@@ -1,0 +1,17 @@
+#theme = gruvbox-material
+#theme = gruber-darker
+#theme = tokyonight_night
+# theme = Monokai Remastered
+# theme = Jellybeans
+theme = miasma
+# theme = nightfox
+# theme = Aura
+# theme = Aurora
+# theme = ayu
+# theme = Bright Lights
+# theme = carbonfox
+# theme = catppuccin-mocha
+
+mouse-hide-while-typing = true
+
+window-decoration = false

@@ -1,0 +1,32 @@
+{
+    "layer": "top",
+    "spacing": 8,
+    "margin":2,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "tray",
+        "pulseaudio",
+        "cpu",
+        "clock"
+    ],
+    "hyprland/window": {
+        "icon": true
+    },
+    "clock": {
+        "interval": 5,
+        "format": "\ue385 {:%r}",
+        "format-alt": "\ue385 {:%a, %d. %b  %H:%M}"
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "\uf4bc {usage}%"
+    },
+    "pulseaudio": {
+        "format": "\uf028 {volume}%"
+    }
+}
