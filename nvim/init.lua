@@ -1,10 +1,10 @@
 require("jonk_vim")
-
-vim.cmd("colorscheme rose-pine")
+local cat = "catppuccin-mocha";
+vim.cmd("colorscheme catppuccin-mocha")
 
 require("lualine").setup({
     options = {
         icons_enabled = true,
-        theme = "rose-pine",
+        theme = cat,
     }
 })
