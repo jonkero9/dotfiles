@@ -33,9 +33,6 @@ return {
             -- refer to the configuration section below
         }
     },
-    { "neovim/nvim-lspconfig" },
-    { "williamboman/mason.nvim" },
-    { "williamboman/mason-lspconfig.nvim" },
     {
         "hrsh7th/nvim-cmp",
         dependencies = {
@@ -51,7 +48,17 @@ return {
         }
     },
     { 'mfussenegger/nvim-lint', },
-    { 'mfussenegger/nvim-dap' },
+    { "neovim/nvim-lspconfig" },
+    { "williamboman/mason.nvim" },
+    { "williamboman/mason-lspconfig.nvim" },
+    {
+        'mfussenegger/nvim-dap',
+        dependencies = {
+            'jay-babu/mason-nvim-dap.nvim',
+            "rcarriga/nvim-dap-ui",
+            "nvim-neotest/nvim-nio"
+        }
+    },
     { 'mhartington/formatter.nvim' },
     {
         "kdheepak/lazygit.nvim",
@@ -95,10 +102,10 @@ return {
             -- refer to the configuration section below
         }
     },
-    { "catppuccin/nvim",          name = "catppuccin", priority = 1000 },
-    { "folke/tokyonight.nvim",    name = "tokyo",      priority = 1000 },
-    { "navarasu/onedark.nvim",    name = "onedark",    priority = 1000 },
-    { "ellisonleao/gruvbox.nvim", priority = 1000,     config = true,  opts = ... },
+    { "catppuccin/nvim",           name = "catppuccin", priority = 1000 },
+    { "folke/tokyonight.nvim",     name = "tokyo",      priority = 1000 },
+    { "navarasu/onedark.nvim",     name = "onedark",    priority = 1000 },
+    { "ellisonleao/gruvbox.nvim",  priority = 1000,     config = true,  opts = ... },
     {
         "mfussenegger/nvim-jdtls"
     },
